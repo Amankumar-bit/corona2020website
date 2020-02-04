@@ -1,0 +1,348 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="head.ico" />
+<link href="home.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+function myslider()
+{
+    document.getElementById("sidebar").classList.toggle('active');
+    document.getElementById("sticky").classList.toggle('active');
+}
+
+
+</script>
+
+<style>
+::-webkit-scrollbar-thumb{
+background-color:red;
+}
+
+
+html{
+    overflow-y:scroll;
+    scrollbar-highlight-color:black;
+    scrollbar-width:thin;
+    
+}
+
+</style>
+
+
+<script> 
+  
+    var deadline = new Date("march 28, 2020 15:37:25").getTime(); 
+      
+    var x = setInterval(function() { 
+      
+    var now = new Date().getTime(); 
+    var t = deadline - now; 
+    var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+    var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+    document.getElementById("day").innerHTML =days ; 
+    document.getElementById("hour").innerHTML =hours; 
+    document.getElementById("minute").innerHTML = minutes;  
+    document.getElementById("second").innerHTML =seconds;  
+    if (t < 0) { 
+            clearInterval(x); 
+            document.getElementById("demo").innerHTML = "TIME UP"; 
+            document.getElementById("day").innerHTML ='0'; 
+            document.getElementById("hour").innerHTML ='0'; 
+            document.getElementById("minute").innerHTML ='0' ;  
+            document.getElementById("second").innerHTML = '0'; } 
+    }, 1000); 
+    </script> 
+<title >
+    
+    |CORONA'20
+
+</title>
+    </head>
+    <body class="background" >
+
+            <div class="loader-bg">
+                    <div class="loader">
+                            <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; position:fixed;left:498px;top:175px;color:orangered">CORONA'20</p>
+
+                    </div>
+
+
+            </div>
+
+
+        <!-- menubar -->
+
+
+
+
+   
+        <div id="sidebar">
+            <!-- <div class="vl1"></div>
+            <div id="icon">BPIT
+              <br>
+              <div style="font:italic;font-size: 10px;margin-left:2px">Corona <br>council <i>present's</i></div style="text:italic">
+          </div> -->
+            <ul>
+          <li>HOME</li>
+          <li>PROGRAMMES</li>
+          <li>TEAM</li>
+          <li>EVENTS</li>
+          <li>PASSES</li>
+          <li>OUR SPONSERS</li>
+          <li>ABOUT</li>
+          
+          
+            </ul>
+            
+            <div class="iconslast1" style="white-space: 20px;" >
+          
+              <img class="icons" src="a.png" style="margin-left:18px">
+              <img class="icons" src="b.png"  style="margin-left:18px" >
+              <img class="icons" src="c.png"  style="margin-left:18px">
+              <img class="icons" src="d.png"  style="margin-left:18px">
+          </div>   
+          
+          <div class="line"></div>
+          </div>
+          
+
+
+        <!-- menubar ends -->
+           
+
+     <div class="container1" content="text/html;charset=UTF-8">
+        <div class="container" content="text/html;charset=UTF-8">
+            <span class="text1">CORONA'20</span>
+            <!-- <br> -->
+            <span class="text2">ANNUAL TECHNO-CULTURAL 
+                <br>FEST OF BPIT</span>
+        </div>
+         <div id="clockdiv" style="position: relative;left:-8px;top:200px"> 
+             <div> 
+                 <span class="days" id="day"></span> 
+                <div class="smalltext">Days</div> 
+             </div> 
+             <div> 
+                 <span class="hours" id="hour"></span> 
+                <div class="smalltext">Hours</div> 
+            </div> 
+            <div> 
+                <span class="minutes" id="minute"></span> 
+                <div class="smalltext">Minutes</div> 
+            </div> 
+            <div> 
+                 <span class="seconds" id="second"></span> 
+                 <div class="smalltext">Seconds</div> 
+            </div> 
+    
+        </div> 
+
+     </div>
+<!-- clock starts -->
+
+<!-- <div id="clockdiv" > 
+    <div> 
+      <span class="days" id="day"></span> 
+      <div class="smalltext">Days</div> 
+    </div> 
+    <div> 
+      <span class="hours" id="hour"></span> 
+      <div class="smalltext">Hours</div> 
+    </div> 
+    <div> 
+      <span class="minutes" id="minute"></span> 
+      <div class="smalltext">Minutes</div> 
+    </div> 
+    <div> 
+      <span class="seconds" id="second"></span> 
+      <div class="smalltext">Seconds</div> 
+    </div> 
+    
+  </div>  -->
+<!--  clock ends -->      
+        
+
+
+        <div class="vl1"></div>
+        
+        <div id="icon">BPIT
+            <br>
+            <div style="font:italic;font-size: 10px;margin-left:2px">Corona <br>council <i>present's</i></div style="text:italic">
+        </div>
+        <div class="menutext"></div>
+        <div class="menu" onclick="myslider()">
+            <img id="icons" src="i.png">
+        </div>
+
+    
+        
+        <div class="vl"><br></div>
+        <div id="sticky"  onclick="myslider()">
+            
+            <img id="icons"  src="a.png" style="margin-top: 32.5%;">
+            <img id="icons"  src="b.png" >
+            <img id="icons"  src="c.png" >
+            <img id="icons"  src="d.png" >
+            
+    </div>
+ 
+    
+    <!-- SECOND BLOCK -->
+    
+    <div class="underline"></div>
+        <div class="black">
+            
+            <div class="width">It's more than<br> the fest.<br>| ABOUT US</div>
+
+         <div class="content" style="letter-spacing: 1px;">By no coincidence, this month we explore the origin of 'festival'. The origin of the word 'festival' can be traced to the Latin 'festa' meaning 'a religious holiday'. ... Eventually, the adjective became a noun, as people stopped talking about 'festival days' and shortened this to 'festivals'.Book-lovers are emerging from their paper cocoons in their book-and-mortar houses, in order to attend the Cheltenham Literature Festival and feed their desire for exciting, new reads. Here at Etymology Corner, we're feeding your love of words. By no coincidence, this month we explore the origin of 'festival'.</div>
+         <div class="line1"><marquee direction="up" height="300px">CORONA2020 ABOUT US</marquee></div>
+        
+        </div>
+        
+        
+   <!-- THIRD BLOCK      -->
+    <div class="underline"></div>
+            <div class="black1">  
+                     <div class="artist" style="position:absolute;left: 180px;">GLIMPSES OF THE PAST</div>
+             
+                    
+                <div class="flex" style="position: relative;left:5%">
+                    <img class="picture" src="sukhe.jfif" style="position: absolute; top:100px">
+                    <h2 style="color:white;position: relative;left:210px;top:150px">SUKHE<br><h5 style="color:white;position: relative;left:240px;top:110px;font-style: oblique;">
+                    | Star night</h5><br><h5 style="color:white;position: relative;left:260px;top:50px;font-style: oblique;"><br>|corona'19</h5></h2>
+                    <img class="picture" src="fa.jfif"  style="position: absolute; top:500px" >
+                    <h2 style="color:white;position: relative;left:210px;top:310px">FAZILPURIA<br><h5 style="color:white;position: relative;left:240px;top:270px;font-style: oblique;">
+                        | Star night</h5><br><h5 style="color:white;position: relative;left:260px;top:210px;font-style: oblique;"><br>|corona'18</h5></h2>
+                   </div>
+                <div class="flex" style="position: relative;left:30%">
+
+                    <img class="picture" src="deep.jfif" style="position: absolute; top:300px">      
+                    <h2 style="color:white;position: relative;left:210px;top:340px">DEEP MONEY<br><h5 style="color:white;position: relative;left:260px;top:300px;font-style: oblique;">
+                        | Star night</h5><br><h5 style="color:white;position: relative;left:280px;top:235px;font-style: oblique;"><br>|corona'17</h5></h2>  
+                               <img class="picture" src="oleese.jpg" style="position: absolute; top:700px;" >
+
+                               <h2 style="color:white;position: relative;left:210px;top:510px">OLLE ESSE<br><h5 style="color:white;position: relative;left:260px;top:470px;font-style: oblique;">
+                                | EDM NIGHT</h5><br><h5 style="color:white;position: relative;left:280px;top:410px;font-style: oblique;"><br>|corona'19</h5></h2>  
+                </div>  
+         </div>
+        
+<!-- FOURTH BLOCK -->
+<div class="underline"></div>
+<div class="black3">
+    <div class="artist" style="position: relative;LEFT:3%;">PROPOSED EVENT'S</div>
+<br>
+
+    <div  style="position:relative;left:14%;font-style:normal;color:white;">Events become Feeling,Feeling become Events. </div>
+    
+
+    <img class="picture1" src="solo.jfif" > 
+    <img class="picture1" src="group.jfif" style="left:4%;box-shadow: currentColor;">    
+    <br>
+    <div style="height: 7%;display: flex;flex-direction: row;">
+<p style="color:white;position: relative;left: 4px;top:85px;font-size: 20px;">| SOLO DANCE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+<p style="color:white;position: relative;left: 80px;top:85px;font-size: 20px;">| GROUP DANCE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+    </div>
+    <img class="picture1" src="street.jfif" style="left:27%" > 
+    <img class="picture1" src="fashion.jfif" style="left:28%;">    
+    <div style="height: 7%;">
+        <p style="color:white;position: relative;left: 285px;top:85px;font-size: 20px;">|STREET DANCE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+        <p style="color:white;position: relative;left: 536px;top:18px;font-size: 20px;">| FASHION PARADE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+    </div>
+    
+    <img class="picture1" src="sandarsh.png" > 
+    <img class="picture1" src="solo.jfif" style="left:1%;"> 
+    <div style="height: 7%;">
+        <p style="color:white;position: relative;left: 4px;top:85px;font-size: 20px;">| SANDARSH<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+        <p style="color:white;position: relative;left: 250px;top:18px;font-size: 20px;">| SOLO SINGING<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+    </div>
+    <img class="picture1" src="treasure.jfif" style="left:27%" > 
+    <img class="picture1" src="folk.jfif" style="left:28%;">    
+    <div style="height: 7%;">
+        <p style="color:white;position: relative;left: 285px;top:85px;font-size: 20px;">|TREASURE HUNT<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+        <p style="color:white;position: relative;left: 536px;top:18px;font-size: 20px;">| FOLK DANCE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+    </div>
+    <img class="picture1" src="hack.jfif" > 
+    <img class="picture1" src="robo.jfif" style="left:1%;"> 
+    <div style="height: 7%;">
+        <p style="color:white;position: relative;left: 4px;top:85px;font-size: 20px;">| HACKATHON<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+        <p style="color:white;position: relative;left: 250px;top:18px;font-size: 20px;">| ROBO RACE<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p> 
+    </div>
+    <img class="picture1" src="web.jfif" style="left:27%" > 
+    <img class="picture1" src="lan.jfif" style="left:28%;">    
+    <div style="height: 7%;">
+        <p style="color:white;position: relative;left: 285px;top:85px;font-size: 20px;">|WEB MASTER<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+        <p style="color:white;position: relative;left: 536px;top:18px;font-size: 20px;">|LAN GAMING<br><span style="color:white;position: relative;left: 124px;top:10px;font-size: 14px;">>DETAILS</span></p>
+    </div>
+        </div>
+      
+        <!-- fifth block -->
+          
+    
+    <div class="underline"></div>
+    <div class="black5" style="height:450">
+        
+        <div class="width" style="font-size: 40px;"><br>| PAST <span style="position:relative;left: 47px;">STATS</span></div>
+        
+        <div class="width" style="font-size: 15px;width: 500px;position: relative;left: 70px;top:25px"><br>Here are some stats from corona'19.
+            <br><p style="font-size: 50px;font-weight:normal ;margin-top: 1%;margin-left: 0px;">100+ &nbsp;&nbsp;20+&nbsp;&nbsp;10000+ <span style="font-size: 15px;width: 20px;word-spacing: 82px;font-weight: lighter;">Participating 
+                Events 
+                Footfall <br>colleges.</p></span>
+               
+
+                </div></p></p>
+            </div>
+
+
+            <!-- sixth block -->
+            <div class="underline"></div>
+        <div class="black5" style="height:400px;">
+            
+            <div class="width" style="font-size:25px ;">| CONTACT US <br><p style="font-size: 15px;letter-spacing: 2px;"> > INFORMATIOIN</div>
+
+         <div style="letter-spacing:0.5px;width: 550px;display: flex;flex-direction:column;" >Want to associate with us or have questions about our fest? Feel free to talk to us, we will be happy to answer you. Here is how to reach us: 
+        <br>
+        <div style="width:220px;height:350px;position: relative;top:50px;left:10px">
+        <p style="letter-spacing: 0.5px;opacity: 1;"><b style="font-size:20px;">> Contact </b><br>|Call:<br>
+            +91 9560462128 <br>+91 9811039021<br> +91 9711601212<br>|EMAIL ID:<br>
+            Corona@bpitindia.com
+            <br>
+        </p> 
+        <div class="iconslast" >
+
+            <img class="icons" src="a.png"   >
+            <img class="icons" src="b.png" style="margin-left: 20px;" >
+            <img class="icons" src="c.png" style="margin-left: 20px;">
+            <img class="icons" src="d.png" >
+        </div>     
+        </div>
+        <div style="width:220px;height:350px;position: relative;top:-195px;left:290px">
+            <p style="letter-spacing: 0.5px;opacity: 1;"><b style="font-size:20px;">> Address </b><br>
+                <p style="text-align: justify;text-decoration: unset;">PSP-4, Dr KN KATJU MARG, SECTOR 17, ROHINI, NEW DELHI, DELHI 110089.
+            </p>
+            <br>
+            <br>
+            <br>  
+         <a href="https://www.germanrailpasses.com/en/germany-train" style="color:orange"> <span style="color:orange;font-weight: bolder;bottom:50px"><img src="tickets(1).png">>>>>GET PASSES</span> 
+        </a>
+        </div>
+        
+        
+        </div>
+        
+            
+        </div>
+        </div>
+     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>    
+<script>
+setTimeout(function(){
+    $('.loader-bg').fadeToggle();
+},1000);
+</script>
+
+      
+    </body>
+</html>
