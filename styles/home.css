@@ -305,7 +305,7 @@ font-family:  "Jost", "Glacial Indifference", "Montserrat", "Open Sans", sans-se
 
 }
 .background{
-    background-image: url('assets/images/p.jpg');
+    background-image: url('../assets/images/p.jpg');
 background-size:100% ;
 height:6150px;
 background-attachment: fixed;
